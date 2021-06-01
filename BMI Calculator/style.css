@@ -1,0 +1,72 @@
+html {
+    background-color: #e9bbbb;
+}
+#container {
+    height: 300px;
+    width: 550px;
+    padding: 30px;
+    background-color: #c3e1f5;
+    display: grid;
+    grid-template-columns: 150px 300px ;
+    grid-template-rows: 100px 100px 50px 100px ;
+    margin: 0 auto;
+    border: 5px solid #03c4ff;
+    grid-template-areas: 
+    ".Weight"
+    ".Height"
+    "btn btn"
+    ".BMI"
+
+}
+
+#wt{
+    grid-area: Weight;
+    height: 25px;
+    width: 300px;
+}
+#ht{
+    grid-area: Height;
+    height: 25px;
+    width: 300px;
+}
+#bmi-output{
+    grid-area:BMI;
+    height: 25px;
+    width: 300px; 
+    
+}
+#BMI_INDEX{  
+    height: 120px;
+    width: 550px;
+    background-color: #c3e1f5;
+    margin: 0 auto;
+    padding: 30px;
+    border: 5px solid #29b0d1;
+} 
+#labelBMI
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+#btn {
+    
+    grid-area: btn;
+    height: 40px;
+    width: 120px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end:3 ;
+    justify-self: center;
+    align-self: center;
+    
+}
+table,th,td {
+    margin: auto;
+    text-align: center;
+    padding: 8px;
+    border-collapse: collapse;
+    border: 1px solid rgb(24, 166, 223);
+}
