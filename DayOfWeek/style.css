@@ -1,0 +1,25 @@
+#dv{
+    background-color:burlywood;
+    border:10px solid crimson;
+    height: 300px;
+    width: 500px;
+    margin: 0% auto;
+}
+h3,h2{
+    color:brown;
+    font-size: 300%;
+    font-style: oblique;
+    align-items: center;
+    text-align: center;
+    margin: 60px auto;
+
+}
+h1{
+    color:brown;
+    font-size: 300%;
+    font-style: oblique;
+    align-items: center;
+    text-align: center;
+    margin: 60px auto;
+
+}
