@@ -1,0 +1,9 @@
+#container{
+    text-align: center;
+    background-color: bisque;
+    margin: 0 auto;
+    padding: 30px;
+    height: 200px;
+    width: 500px;
+    padding-top: 50px;
+}

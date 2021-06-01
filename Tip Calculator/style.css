@@ -1,0 +1,51 @@
+html {
+    background-color:khaki
+}
+
+#mydiv{
+    height: 325px;
+    width: 350px;
+    background-color: rgb(51, 197, 178);
+    display: grid;
+    border: 10px solid #0662eb;
+    margin: 0 auto;
+    grid-template-columns: 100px 1fr ;
+    grid-template-rows: 70px 70px 70px 75px ;
+    padding: 30px;
+    grid-template-areas: 
+    ".bill"
+    ".tippercentage"
+    ".tip-amount"
+    ".total-bill"
+    "cal cal";
+}
+
+#bill {
+    grid-area: bill;
+    height: 30px;
+    width: 250px;
+}
+
+#tip {
+    grid-area: tippercentage;
+    height: 30px;
+    width: 250px;
+}
+
+#tipamount {
+    grid-area: tip-amount;
+    height: 30px;
+    width: 250px;
+}
+
+#totalbil{
+    grid-area: total-bill;
+    height: 30px;
+    width: 250px;
+}
+#cal {
+    grid-area: cal;
+    height: 35px;
+    width: auto;
+        
+}
